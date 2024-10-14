@@ -154,7 +154,7 @@ a{
     background-image: url(../images/handshake.jpg);
     background-position: center;
     border-radius: 16px;
-    margin-bottom: 80px;
+    margin-bottom: 118px;
     box-shadow: 0px 0px 600px 0px black inset;
 }
 .support-sect-title {
@@ -192,4 +192,14 @@ a{
     border-radius: 8px;
 }
 /* support-section end */
+
 /* main section end */
+
+/* footer start */
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 525px;
+}
+/* footer end */
