@@ -2,7 +2,6 @@
     font-family: "Azeret Mono", monospace;
     font-style: normal;
   }
-
 /* header section start*/
 header{
     background-image: url(../images/Hero-bg.png);
@@ -18,7 +17,6 @@ header h1{
 }
 .header{
     background-image: url(../images/Hero-bg.png);
-    background-size:auto;
     margin-top: 150px;
     margin-bottom: 70px;
 }
@@ -50,7 +48,6 @@ main{
     margin: 0 auto;
     margin-top: 200px;
 }
-
 .dev-sect-title{
     text-align: center;
     margin-bottom: 48px;
@@ -88,26 +85,70 @@ main{
     font-weight: 600;
 }
 /* web dev section end */
-.inspiraton-section{
-    margin: 90px 0 48px 0;
+/* inspiration section start */
+.inspiration-section{
+    margin: 150px 0 48px 0;
     text-align: center;
 }
-.inspiraton-section h3{
+.inspiration-section h3{
     font-size: 32px;
     font-weight: 800;
     text-align: center;
 }
-.inspiraton-section p{
+.inspiration-section p{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
 .iframe{
     padding: 32px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
 }
 iframe{
     border-radius: 16px;
 }
+/* inspiration section end */
+
+/* current target section start*/
+.target-title{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.target-title h3{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.target-title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.current-item-container{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 110px;
+}
+.current-items{
+    width: 365px;
+    margin-top: 40px;
+}
+.current-items h4{
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.current-items p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* current target section end */
+
 /* main section end */
